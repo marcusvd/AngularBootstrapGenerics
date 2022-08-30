@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+        <div class="col" *ngFor="let card of cardDtoArray | async">
+            <div class="card">
+                <img [src]="card.stringPathImg" alt="" class="card-img-top">
+                <div class="card-body">
+
+                    <h5 class="card-title">{{card.titleText}}</h5>
+                    <p class="card-text">{{card.bodyTextCard}}</p>
+                    <a [href]="card.linkTextUrl" class="btn btn-primary">{{card.linkTextButton}}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
