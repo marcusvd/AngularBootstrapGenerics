@@ -1,16 +1,18 @@
 import { NgModule } from "@angular/core";
 import { CarouselModule } from 'ngx-bootstrap/carousel';
-
+import { TabsModule } from 'ngx-bootstrap/tabs';
 
 @NgModule({
   declarations: [
 
   ],
   imports: [
-    CarouselModule
+    CarouselModule.forRoot(),
+    TabsModule.forRoot(),
   ],
   exports: [
-    CarouselModule
+    CarouselModule,
+    TabsModule,
   ],
 })
 

@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
+import { CardDto } from './dto/card-dto';
 
 @Component({
   selector: 'card-g',
@@ -18,10 +19,3 @@ export class CardGComponent implements OnInit {
 
 }
 
-export interface CardDto {
-  stringPathImg: string;
-  bodyTextCard: string;
-  titleText: string;
-  linkTextUrl: string;
-  linkTextButton: string;
-}

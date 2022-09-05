@@ -1,6 +1,6 @@
-<nav-bar></nav-bar>
-<div class="p-5"></div>
-<card-g [cardDtoArray]="makeCard()">
-</card-g>
+<!-- <div (click)="test()">CLIQUE AQUI</div> -->
+<tab-g [entities]="clients" #clientSingleId (click)="callClientSingleById(clientSingleId)">
+
+</tab-g>
 <router-outlet>
 </router-outlet>

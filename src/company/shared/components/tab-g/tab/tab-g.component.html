@@ -1,0 +1,17 @@
+<div class="p-5">
+    <tabset>
+        <tab *ngFor="let tabSingle of this.tabs" (selectTab)="selectTab(tabSingle)" [ngClass]="{'active': tabSingle.active}" [heading]="tabSingle.titleTab">
+            <!-- <ng-content *ngIf="tabSingle.active"></ng-content> -->
+
+            <div>
+                {{entity?.id}}
+            </div>
+            <div>
+                {{entity?.name}}
+            </div>
+            <div>
+                {{entity?.cnpj}}
+            </div>
+        </tab>
+    </tabset>
+</div>
