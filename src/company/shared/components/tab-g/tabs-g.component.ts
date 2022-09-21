@@ -1,12 +1,10 @@
 import { OnInit, Component, ContentChildren, QueryList, AfterContentInit, OnChanges, SimpleChanges } from '@angular/core';
-import { ContainerTabGComponent } from './container-tab-g.component';
+import { ContainerTabGComponent } from './components/container-tab-g.component';
 import { ITab } from './interfaces/itab';
 
 @Component({
   selector: 'tabs-g',
   styles:[`
-
-
 :host{
     width: 100%;
 }

@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { ITab } from './interfaces/itab';
+import { ITab } from '../interfaces/itab';
 
 @Component({
   selector: 'container-tab-g',
