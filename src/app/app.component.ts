@@ -8,31 +8,13 @@ import { ClientDto } from './dtos/client-dto';
   template: `
   <h1>Angular tabs</h1>
     <tabs-g>
-      <container-tab-g title="Tab 1" >
+      <container-tab-g tabTitle="Tab 1" >
       <div>Tab 1 Content</div>
       </container-tab-g>
-      <container-tab-g title="Tab 2">
+      <container-tab-g tabTitle="Tab 2">
         <div>Tab 2 Content</div>
       </container-tab-g>
-      <container-tab-g title="Tab 3">
-        <div>Tab 3 Content</div>
-      </container-tab-g>
-      <container-tab-g title="Tab 1" >
-      <div>Tab 1 Content</div>
-      </container-tab-g>
-      <container-tab-g title="Tab 2">
-        <div>Tab 2 Content</div>
-      </container-tab-g>
-      <container-tab-g title="Tab 3">
-        <div>Tab 3 Content</div>
-      </container-tab-g>
-      <container-tab-g title="Tab 1" >
-      <div>Tab 1 Content</div>
-      </container-tab-g>
-      <container-tab-g title="Tab 2">
-        <div>Tab 2 Content</div>
-      </container-tab-g>
-      <container-tab-g title="Tab 3">
+      <container-tab-g tabTitle="Tab 3">
         <div>Tab 3 Content</div>
       </container-tab-g>
     </tabs-g>

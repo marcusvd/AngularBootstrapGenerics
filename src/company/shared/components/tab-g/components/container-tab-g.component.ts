@@ -3,7 +3,6 @@ import { ITab } from './interfaces/itab';
 
 @Component({
   selector: 'container-tab-g',
-  styles: [],
   template: `
     <div>
       <ng-content *ngIf="active"></ng-content>
