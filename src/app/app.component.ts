@@ -17,24 +17,6 @@ import { ClientDto } from './dtos/client-dto';
       <container-tab-g title="Tab 3">
         <div>Tab 3 Content</div>
       </container-tab-g>
-      <container-tab-g title="Tab 1" >
-      <div>Tab 1 Content</div>
-      </container-tab-g>
-      <container-tab-g title="Tab 2">
-        <div>Tab 2 Content</div>
-      </container-tab-g>
-      <container-tab-g title="Tab 3">
-        <div>Tab 3 Content</div>
-      </container-tab-g>
-      <container-tab-g title="Tab 1" >
-      <div>Tab 1 Content</div>
-      </container-tab-g>
-      <container-tab-g title="Tab 2">
-        <div>Tab 2 Content</div>
-      </container-tab-g>
-      <container-tab-g title="Tab 3">
-        <div>Tab 3 Content</div>
-      </container-tab-g>
     </tabs-g>
   `
 

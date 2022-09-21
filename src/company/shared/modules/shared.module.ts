@@ -7,7 +7,7 @@ import { CarouselGComponent } from "../components/carousel-g/carousel-g.componen
 import { NavBarComponent } from "../components/nav-bar/nav-bar.component";
 
 import { ContainerTabGComponent } from "../components/tab-g/components/container-tab-g.component";
-import { TabsGComponent } from "../components/tab-g/tabs-g.component";
+import { TabsGComponent } from "../components/tab-g/components/tabs-g.component";
 import { NgxBootstrapModule } from "./ngx-bootstrap.module";
 
 
